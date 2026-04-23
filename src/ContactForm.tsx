@@ -1,8 +1,9 @@
 type FormEventHandler<T = Element> = (event: React.FormEvent<T>) => void
 import FormEventHandler from 'react';
-
+import './contact.css'
 import { useState, type ChangeEvent } from 'react';
 // Définition de la forme des données
+
 interface ContactState {
   nom: string;
   email: string;

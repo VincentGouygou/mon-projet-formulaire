@@ -1,1 +1,5 @@
-div {padding: '20px'; border: '1px solid #ccc'; border-radius: '8px' }
+div {
+    padding: 20px; 
+    border: 1px solid #06e011; 
+    border-radius: 8px ;
+}
